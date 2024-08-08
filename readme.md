@@ -1,7 +1,7 @@
 # Availability Scheduling Schema
 
 This repository contains the schema for an event scheduling system where events can reference each other as parent or child events.
-
+![alt text](image.png)
 ## Description
 
 The `availability` table manages availability time with linked list structure in sql. Result in a much better performance in storage, access, modification and comparison.
